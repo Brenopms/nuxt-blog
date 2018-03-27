@@ -41,7 +41,7 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    ['storyblok-nuxt', {accessToken: 'mVPVv6WSDzAmFkbNw4rrigtt', cacheProvider: 'memory' }]
   ],
 
   /*
